@@ -4,7 +4,9 @@
 This is a Mongoose based backend to some sort of social media application. You are able to create a User, post your Thoughts, and even React to others' Thoughts. You are also able to update and delete any of those features at will.  You may view the repository at the [Deployed](https://github.com/DStefani86/social-media-network-api).
 
 ## Video Walkthrough
-![Social Media Backend Video Walkthrough]https://drive.google.com/file/d/1g6rPjQqeSardy24NGaC0_Z40PNmSvIXA/view
+[](../../../../Downloads/Module_18_Walkthrough.webm)
+
+[Walkthrough]https://drive.google.com/file/d/1g6rPjQqeSardy24NGaC0_Z40PNmSvIXA/view
 
 ## Table of Contents
 
@@ -26,31 +28,29 @@ Visit my GitHub repository featured in the Questions section below. Find the Emp
 
 ## Usage
 
-I am including some examples of my code to demonstrate the functionality of my application. First are my controllers for the Users and Thoughts.
+I am including some examples of my code to demonstrate the functionality of my application. First thing I'd like to showcase are my controllers for the Users and Thoughts. 
 
-![CodeEx01](./images/CodeEx01.png)
+![CodeEx01](./public/images/CodeEx01.png)
 
-These are the seeds I built into my db tables 
+This is how I deleted all thoughts from a User upon destroying that ID 
 
-![CodeEx02](.images/CodeEx02.png)
+![CodeEx02](./public/images/CodeEx02.png)
 
-An examples from my questions using Inquirer
+Adding Friends by ID
 
-![CodeEx03](.images/CodeEx03.png)
+![CodeEx03](./public/images/CodeEx03.png)
 
-These are my IF statements to navigate through the prompts
+An example of some of my User routes
 
-![CodeEx04](.images/CodeEx04.png)
+![CodeEx04](./public/images/CodeEx04.png)
 
-A function I created to highlight using SELECT and INSERT into my tables from Inquirer 
+This is my Thought model which features a timestamp function!! 
 
-![CodeEx05](.images/CodeEx05.png)
+![CodeEx05](./public/images/CodeEx05.png)
 
-Finally, this is my function to incorporate using UPDATE syntax into my inquirer prompts
 
-![CodeEx06](.images/CodeEx06.png)
 
-If you have any other curiosities about the functionality of this application please watch the tutorial video I have included
+If you have any other curiosities about the functionality of this application please watch the tutorial video I have included above the Table of Contents
 
 
 
